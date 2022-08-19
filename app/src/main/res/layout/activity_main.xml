@@ -20,40 +20,42 @@
         android:layout_marginTop="20sp"
         android:text="Usuário"
         android:textAllCaps="true"
-        android:textColor="#EAA4AF"
+        android:textColor="@color/corTitulo"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Insira o usuário"
+        android:hint="@string/insira_o_usu_rio"
         android:inputType="textEmailAddress"
-        android:maxLength="100" />
+        android:maxLength="100"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Senha"
+        android:text="@string/senha"
         android:textAllCaps="true"
-        android:textColor="#EAA4AF"
+        android:textColor="@color/corTitulo"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Insira a senha"
+        android:hint="@string/insira_a_senha"
         android:inputType="textPassword"
-        android:maxLength="100" />
+        android:maxLength="100"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entrar" />
+        android:text="@string/entrar" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sair" />
+        android:text="@string/sair" />
 </LinearLayout>
